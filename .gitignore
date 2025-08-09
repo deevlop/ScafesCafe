@@ -1,0 +1,7 @@
+client/node_modules/
+client/package-lock.json
+
+.env
+
+forcasting/node_modules/
+forcasting/package-lock.json
