@@ -1,0 +1,37 @@
+[
+    {
+        "id": "appliance001",
+        "name": "Ninja Creami",
+        "consumption": null
+    },
+    {
+        "id": "appliance002",
+        "name": "Freezer",
+        "consumption": null
+    },
+    {
+        "id": "appliance003",
+        "name": "Fridge",
+        "Consumption": null
+    },
+    {
+        "id": "appliance004",
+        "name": "Expresso Machine",
+        "Consumption": null
+    },
+    {
+        "id": "appliance005",
+        "name": "rotating warmer",
+        "consumption": null
+    },
+    {
+        "id": "appliance006",
+        "name": "Heat Fan",
+        "consumption": null
+    },
+    {
+        "id": "appliance007",
+        "name": "Hot Water Dispenser",
+        "consumption": null
+    }
+]

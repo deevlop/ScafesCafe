@@ -1,0 +1,16 @@
+[
+    {
+        "authority": "Saskatchewan Health",
+        "type": "Trailer Size",
+        "parameters": {
+            "maxWeight": "8000kg",
+            "maxWidth": "2.5m",
+            "maxLength": "9.75m"
+        }
+    },
+    {
+        "authority": "",
+        "type": "",
+        "parameters": {}
+    }
+]

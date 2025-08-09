@@ -1,0 +1,241 @@
+[
+  {
+    "id": "1",
+    "name": "Hot Dalgona Ice Cream Latte",
+    "category": "beverage",
+    "variations": ["Plain", "Fudge Mocha", "Caramel", "Matcha", "Seasonal"],
+    "ingredients": [
+      {
+        "name": "Dalgona Ice Cream",
+        "quantity": "",
+        "unitCost": 0.62
+      },
+      {
+        "name": "Frothed Milk",
+        "quantity": "80ml",
+        "unitCost": 0.225
+      },
+      {
+        "name": "Instant coffee shot",
+        "quantity": "30ml",
+        "unitCost": 0.2
+      }, 
+      {
+        "name": "Flavoured Sauce",
+        "quantity": "30ml",
+        "unitCost": 0.2
+      }, 
+      {
+        "name": "Flavoured Syrup",
+        "quantity": "30ml",
+        "unitCost": 0.2
+      }, 
+      {
+        "name": "Fruit Base",
+        "quantity": "",
+        "unitCost": 0.0
+      },
+      {
+        "name": "Electricity",
+        "quantity": "30WH",
+        "unitCost": 0.0
+      }
+    ],
+    "price": 5.50
+  }, 
+  {
+    "id": "2",
+    "name": "Iced Dalgona Ice Cream Latte",
+    "category": "beverage",
+    "variations": ["Plain", "Fudge Mocha", "Caramel", "Matcha", "Seasonal"],
+    "ingredients": [
+      {
+        "name": "Dalgona Ice Cream",
+        "quantity": "",
+        "unitCost": 0.62
+      },
+      {
+        "name": "Frothed Milk",
+        "quantity": "80ml",
+        "unitCost": 0.225
+      },
+      {
+        "name": "Instant coffee shot",
+        "quantity": "30ml",
+        "unitCost": 0.2
+      }, 
+      {
+        "name": "Flavoured Sauce",
+        "quantity": "30ml",
+        "unitCost": 0.2
+      }, 
+      {
+        "name": "Flavoured Syrup",
+        "quantity": "30ml",
+        "unitCost": 0.2
+      }, 
+      {
+        "name": "Fruit Base",
+        "quantity": "",
+        "unitCost": 0.0
+      },
+      {
+        "name": "Electricity",
+        "quantity": "30WH",
+        "unitCost": 0.0
+      }
+    ],
+    "price": 5.50
+  },
+  {
+    "id": "3",
+    "name": "Drip Coffee",
+    "category": "beverage",
+    "variations": ["black"],
+    "ingredients": [
+        {
+            "name": "water",
+            "quantity": "120ml",
+            "unitCost": 0.02
+        }, 
+        {
+            "name": "Instant Coffee",
+            "quantity": "3.9g",
+            "unitCost": 0.15
+        }
+    ],
+    "price": 2.75
+  },
+  {
+    "id": "4",
+    "name": "Latte",
+    "category": "beverage",
+    "variations": ["Plain", "Fudge Mocha", "Caramel", "Matcha", "Seasonal"],
+    "ingredients": [
+        {
+            "name": "water",
+            "quantity": "50ml",
+            "unitCost": 0.02
+        }, 
+        {
+            "name": "Instant Coffee",
+            "quantity": "3.9g",
+            "unitCost": 0.15
+        },
+        {
+            "name": "Frothed Milk",
+            "quantity": "90ml",
+            "unitCost": 0.225
+        },
+        {
+            "name": "Electricity",
+            "quantity": 0,
+            "unitCost": 0.0
+        }
+    ],
+    "price": 3.85
+  },
+  {
+    "id": "5",
+    "name": "Waffle Ham n Egger",
+    "category": "food",
+    "variations": ["plain"],
+    "ingredients": [
+        {
+            "name": "Cooked Ham",
+            "quantity": "50g",
+            "unitCost": 1.2
+        },
+        {
+            "name": "Waffle mix",
+            "quantity": "235ml",
+            "unitCost": 0.75
+        },
+        {
+            "name": "Milk",
+            "quantity": "235ml",
+            "unitCost": 0.35
+        },
+        {
+            "name": "butter",
+            "quantity": "50g",
+            "unitCost": 0.3
+        },
+        {
+            "name": "Maple Syrup",
+            "quantity": "20ml",
+            "unitCost": 0.4
+        },
+        {
+            "name": "Honey",
+            "quantity": "20g",
+            "unitCost": 0.4
+        },
+        {
+            "name": "Eggs",
+            "quantity": "2pcs",
+            "unitCost": 0.22
+        },
+        {
+            "name": "Electricity",
+            "quantity": "30WH",
+            "unitCost": 0.0
+        }   
+    ],
+    "price": 6.00
+  },
+  {
+    "id": "6",
+    "name": "Dalgona Ice Cream Waffle",
+    "category": "food",
+    "variations": ["Plain", "Hot Fudge", "Caramel", "Matcha", "Seasonal"],
+    "ingredients": [
+        {
+            "name": "Waffle mix",
+            "quantity": "235ml",
+            "unitCost": 0.75
+        },
+        {
+            "name": "Milk",
+            "quantity": "235ml",
+            "unitCost": 0.35
+        },
+        {
+            "name": "butter",
+            "quantity": "50g",
+            "unitCost": 0.3
+        },
+        {
+            "name": "Maple Syrup",
+            "quantity": "20ml",
+            "unitCost": 0.4
+        },
+        {
+            "name": "Honey",
+            "quantity": "20g",
+            "unitCost": 0.4
+        },
+        {
+            "name": "Flavoured Sauce",
+            "quantity": "30ml",
+            "unitCost": 0.2
+        }, 
+        {
+            "name": "Flavoured Syrup",
+            "quantity": "30ml",
+            "unitCost": 0.2
+        }, 
+        {
+            "name": "Fruit Base",
+            "quantity": "",
+            "unitCost": 0.0
+        },
+        {
+            "name": "Electricity",
+            "quantity": "30WH",
+            "unitCost": 0.0
+        }
+    ],
+    "price": 5.50
+  }
+]

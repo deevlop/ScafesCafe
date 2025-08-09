@@ -1,0 +1,27 @@
+// forecast-config.json
+{
+  "demandFactors": {
+    "item001": 0.8,
+    "item002": 0.6
+  },
+  "customerRangePerDay": {
+    "min": 50,
+    "max": 100
+  },
+  "priceVariability": {
+    "Vanilla Ice Cream": {
+      "min": 0.75,
+      "max": 0.90
+    },
+    "Milk": {
+      "min": 0.35,
+      "max": 0.45
+    },
+    "Dalgona Crumble": {
+      "min": 0.20,
+      "max": 0.35
+    }
+  },
+  "simulations": 1000
+}
+
