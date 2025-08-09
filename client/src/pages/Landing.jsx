@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 export default function Landing() {
-  const videoRef = useRef("/landing-bg-sample.mp4");
+  const videoRef = useRef();
   const [videoReady, setVideoReady] = useState(false);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ export default function Landing() {
         muted
         playsInline
       >
-        <source src="/videos/landing-bg.mp4" type="video/mp4" />
+        <source src="/landing-bg-sample.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay dark layer for text readability */}
