@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import menuData from "../../../menu.json";
+import Button from "../components/Buttons";
+import MenuItem from '../components/MenuItem';
 
 export default function Menu() {
   const [currentCategory, setCurrentCategory] = useState("Cold Drinks");
@@ -35,51 +37,50 @@ export default function Menu() {
 
   return (
 
-    <div className="w-screen h-screen flex-col items-center justify-start overflow-y-hidden overflow-x-hidden pt-20">
-        <div className="w-full flex justify-around mb-4 h-[64px]">
+    <div className="w-screen h-screen flex-col items-center justify-start overflow-y-hidden overflow-x-hidden pt-20 px-2 ">
+        <div className="w-full flex flex-row justify-around overflow-x-auto mb-4 h-[4.5rem] bg-black p-2 border-coffee-light px-4  border-[0.15rem]">
 
-            <div className="flex flex-col items-center justify-center w-full h-full">
-                <button
-                className="px-4 py-2 bg-blue-500 text-white rounded-md"
-                onClick={() => setCurrentCategory("Cold Drinks")}
+            <div className="flex flex-col items-center justify-center w-full h-full mx-2 ">
+                <Button
+                    onClick={() => setCurrentCategory("Cold Drinks")}
                 >
-                Cold Drinks
-                </button>
+                    Cold Drinks
+                </Button>
 
                 {
                     currentCategory === "Cold Drinks" && (
-                        <div className="w-[12px] h-[12px] bg-blue-500 rounded-full mt-2"></div>
+                        <div className="w-[16px] h-[6px] bg-coffee-light border-coffee-medium border-[0.1rem] rounded-full mt-[0.15rem]"></div>
                     )
                 }
 
             </div>
 
 
-            <div className="flex flex-col items-center justify-center w-full h-full ">
-                <button
-                    className="px-4 py-2 bg-blue-500 text-white rounded-md"
+            <div className="flex flex-col items-center justify-center w-full h-full mx-2 ">
+                <Button
                     onClick={() => setCurrentCategory("Hot Drinks")}
                 >
                     Hot Drinks
-                </button>
+                </Button>
+
                 {
                     currentCategory === "Hot Drinks" && (
-                        <div className="w-[12px] h-[12px] bg-blue-500 rounded-full mt-2"></div>
+                        <div className="w-[16px] h-[6px] bg-coffee-light border-coffee-medium border-[0.1rem] rounded-full mt-[0.15rem]"></div>
                     )
                 }
 
             </div>
 
-            <div className="flex flex-col items-center justify-center w-full h-full ">
-                <button
-                    className="px-4 py-2 bg-blue-500 text-white rounded-md"
+            <div className="flex flex-col items-center justify-center w-full h-full mx-2 ">
+                <Button
                     onClick={() => setCurrentCategory("Waffles")}
                 >
                     Waffles
-                </button>
+                </Button>
+
                 {
                     currentCategory === "Waffles" && (
-                        <div className="w-[12px] h-[12px] bg-blue-500 rounded-full mt-2"></div>
+                        <div className="w-[16px] h-[6px] bg-coffee-light border-coffee-medium border-[0.1rem] rounded-full mt-[0.15rem]"></div>
                     )
                 }
 
@@ -89,15 +90,18 @@ export default function Menu() {
         </div>
 
 
-        <div className="w-full h-full flex flex-col items-center justify-start overflow-y-auto overflow-x-hidden md:grid md:grid-cols-3 md:grid-flow-row md:auto-rows-max md:gap-4 overflow-y-auto pb-20">
+        <div className="w-full h-full flex flex-col items-center justify-start overflow-y-auto overflow-x-hidden md:grid md:grid-cols-3 md:grid-flow-row md:auto-rows-max md:gap-4 overflow-y-auto  bg-black  pb-24 px-2 border-coffee-light border-[0.15rem] p-2 md:pr-4">
             {
                 filteredMenu && filteredMenu.length > 0 ? 
                 filteredMenu.map((item) => (
-                    <div key={item.id} className="w-full h-full p-4 flex flex-col items-center justify-center">
-                        <div className="w-full h-full border rounded-md border-black m-2 text-center">
-                            {item.name}
-                        </div>
-                    </div>
+                    <MenuItem 
+                        key={item.id} 
+                        name={item.name} 
+                        price={item.price} 
+                        ingredients={item.ingredients} 
+                        description={item.description} 
+                        videoSrc="/making-latte-sample.mp4" 
+                    />
                 )) : (
                     <div className="w-full h-full p-4 flex flex-col items-center justify-center">
                         <div className="w-full h-full border rounded-md border-black m-2 text-center">

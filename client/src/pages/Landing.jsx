@@ -80,7 +80,7 @@ export default function Landing({ setPage }) {
       <div className="absolute inset-0 bg-black bg-opacity-40" />
 
       {/* Content */}
-      {videoReady && (
+      {videoReady ? (
         <motion.div
           className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white"
           initial={{ opacity: 0 }}
@@ -100,27 +100,28 @@ export default function Landing({ setPage }) {
           </motion.nav> */}
           
 
-          <div className="flex flex-col items-center justify-center w-full h-1/2">
-            {/* Headline */}
-            <motion.h1
-              className="text-3xl sm:text-5xl font-bold mb-2"
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
-            >
-              Scafe's Cafe.
-            </motion.h1>
+          <div className="flex flex-col items-center justify-start w-full h-2/5 pt-20">
+            <div className="p-2 bg-black opacity-80 rounded-md">
+              {/* Headline */}
+              <motion.h1
+                className="text-3xl sm:text-5xl text-coffee-light font-bold mb-2 opacity-100"
+                initial={{ y: 30, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.8, duration: 0.8 }}
+              >
+                Scafe's Cafe.
+              </motion.h1>
 
-            {/* Subheadline */}
-            <motion.p
-              className="text-lg sm:text-2xl mb-2"
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 1.2, duration: 0.8 }}
-            >
-              Coffee, Ice Cream, and Waffles.
-            </motion.p>
-
+              {/* Subheadline */}
+              <motion.p
+                className="text-lg sm:text-2xl mb-2 text-coffee-medium font-bold opacity-100"
+                initial={{ y: 30, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 1.2, duration: 0.8 }}
+              >
+                Coffee, Ice Cream, and Waffles.
+              </motion.p>
+            </div>
           </div>
 
 
@@ -129,7 +130,7 @@ export default function Landing({ setPage }) {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 1.8, duration: 0.6 }}
-            className={`w-full flex flex-col md:grid  md:grid-cols-2 md:gap-2 h-1/2 justify-center items-center py-4 px-2`}
+            className={`w-full flex flex-col md:grid  md:grid-cols-2 md:gap-2 h-3/5 justify-center items-center py-4 px-2`}
           >
 
             {/* Map */}
@@ -163,8 +164,8 @@ export default function Landing({ setPage }) {
 
               >
                 <div className="bg-black flex flex-col items-center justify-center m-2 w-full h-full rounded-md">
-                  <h2 className="text-2xl font-bold mb-2">See Our Menu</h2>
-                  <div className="h-1 bg-white w-[12px] mb-2" />
+                  <h2 className="text-2xl font-bold mb-2 text-coffee-dark">See Our Menu</h2>
+                  <div className="h-1 bg-coffee-light w-[12px] mb-2" />
                   {/* <insert video of item being made, rounded corners, loops through continiously */}
                   <p className="text-sm text-gray-400">Click to explore our delicious offerings</p>
                 </div>
@@ -175,6 +176,10 @@ export default function Landing({ setPage }) {
 
         </motion.div>
 
+      ) : (
+        <div className="flex flex-col items-center justify-center w-full h-full">
+          <p className="text-sm text-gray-400">Loading...</p>
+        </div>
       )}
     </div>
   );

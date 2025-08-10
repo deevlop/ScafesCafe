@@ -1,8 +1,22 @@
 
 import { motion } from "framer-motion"
+import { useEffect, useState } from "react"
 export default function Navbar({ setPage, isNavOpen, setIsNavOpen }) {
+
+
+    const [height, setHeight] = useState("h-16");
+
+    useEffect(()=> {
+       if (isNavOpen) {
+           // Add any additional logic you want to run when the nav opens
+           setHeight("h-screen")
+       } else {
+           setHeight("h-16")
+       }
+    }, [isNavOpen])
+
     return (
-        <div className="absolute top-0 left-0 h-full flex items-start z-20">
+        <div className={`${height} fixed top-0 left-0 w-full flex items-start z-20 `}>
             {/* Menu icon when closed */}
             {!isNavOpen && (
                 <button
@@ -43,16 +57,28 @@ export default function Navbar({ setPage, isNavOpen, setIsNavOpen }) {
 
                         {/* Nav items */}
                         <nav className="flex flex-col space-y-4 p-4">
-                        <button className="hover:underline text-left bg-black" onClick={() => setPage("landing")}>
+                        <button className="hover:underline text-left bg-black" onClick={() => {
+                            setPage("landing")
+                            setIsNavOpen(false)
+                        }}>
                             Home
                         </button>
-                        <button className="hover:underline text-left bg-black" onClick={() => setPage("menu")}>
+                        <button className="hover:underline text-left bg-black" onClick={() => {
+                            setPage("menu")
+                            setIsNavOpen(false)
+                        }}>
                             Menu
                         </button>
-                        <button className="hover:underline text-left bg-black" onClick={() => setPage("about")}>
+                        <button className="hover:underline text-left bg-black" onClick={() => {
+                            setPage("about")
+                            setIsNavOpen(false)
+                        }}>
                             About
                         </button>
-                        <button className="hover:underline text-left bg-black" onClick={() => setPage("contact")}>
+                        <button className="hover:underline text-left bg-black" onClick={() => {
+                            setPage("contact")
+                            setIsNavOpen(false)
+                        }}>
                             Contact
                         </button>
                         </nav>

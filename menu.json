@@ -3,6 +3,8 @@
     "id": "1",
     "name": "Dalgona Latte",
     "category": "beverage",
+    "description": "A creamy latte topped with our signature dalgona whip.",
+    "preparation": "A layer of dalgona whip is placed first, then 50ml of drip coffee, then 70ml of frothed milk, and topped with a layer of dalgona whip.",
     "ingredients": [
       {
         "name": "Dalgona Whip",
@@ -46,6 +48,8 @@
     "id": "2",
     "name": "Iced Dalgona Latte",
     "category": "beverage",
+    "description": "A refreshing iced latte with a dalgona twist.",
+    "preparation": "A scoop of frozen dalgona ice cream is placed in the cup over ice, then 50ml of drip coffee is poured over, followed by 70ml of milk. Sauce is sprayed in the cup first, and syrup is mixed with the milk.",
     "ingredients": [
       {
         "name": "Dalgona Ice Cream",
@@ -89,6 +93,8 @@
     "id": "3",
     "name": "Dalgona Fudge Mocha Latte",
     "category": "beverage",
+    "description": "A rich mocha latte with a hint of fudge and dalgona topping.",
+    "preparation": "A layer of dalgona whip is placed first, then 50ml of drip coffee, then 70ml of frothed milk, and topped with a layer of dalgona whip.",
     "ingredients": [
       {
         "name": "Dalgona Whip",
@@ -132,6 +138,8 @@
     "id": "4",
     "name": "Iced Dalgona Fudge Mocha Latte",
     "category": "beverage",
+    "description": "A chilled mocha latte with fudge and dalgona ice cream.",
+    "preparation": "A scoop of frozen dalgona ice cream is placed in the cup over ice, then 50ml of drip coffee is poured over, followed by 70ml of milk. Sauce is sprayed in the cup first, and syrup is mixed with the milk.",
     "ingredients": [
       {
         "name": "Dalgona Ice Cream",
@@ -175,6 +183,8 @@
     "id": "5",
     "name": "Dalgona Caramel Latte",
     "category": "beverage",
+    "description": "A caramel-infused latte topped with dalgona whip.",
+    "preparation": "A layer of dalgona whip is placed first, then 50ml of drip coffee, then 70ml of frothed milk, and topped with a layer of dalgona whip.",
     "ingredients": [
       {
         "name": "Dalgona Whip",
@@ -218,6 +228,8 @@
     "id": "6",
     "name": "Iced Dalgona Caramel Latte",
     "category": "beverage",
+    "description": "A cool caramel latte with dalgona ice cream.",
+    "preparation": "A scoop of frozen dalgona ice cream is placed in the cup over ice, then 50ml of drip coffee is poured over, followed by 70ml of milk. Sauce is sprayed in the cup first, and syrup is mixed with the milk.",
     "ingredients": [
       {
         "name": "Dalgona Ice Cream",
@@ -261,6 +273,8 @@
     "id": "7",
     "name": "Dalgona Matcha Latte",
     "category": "beverage",
+    "description": "A matcha latte with a dalgona twist.",
+    "preparation": "A layer of dalgona whip is placed first, then 50ml of drip coffee, then 70ml of frothed milk, and topped with a layer of dalgona whip.",
     "ingredients": [
       {
         "name": "Dalgona Whip",
@@ -304,6 +318,8 @@
     "id": "8",
     "name": "Iced Dalgona Matcha Latte",
     "category": "beverage",
+    "description": "A refreshing iced matcha latte with dalgona ice cream.",
+    "preparation": "A scoop of frozen dalgona ice cream is placed in the cup over ice, then 50ml of drip coffee is poured over, followed by 70ml of milk. Sauce is sprayed in the cup first, and syrup is mixed with the milk.",
     "ingredients": [
       {
         "name": "Dalgona Ice Cream",
@@ -347,6 +363,8 @@
     "id": "9",
     "name": "Dalgona Seasonal Latte",
     "category": "beverage",
+    "description": "A seasonal latte with dalgona whip.",
+    "preparation": "A layer of dalgona whip is placed first, then 50ml of drip coffee, then 70ml of frothed milk, and topped with a layer of dalgona whip.",
     "ingredients": [
       {
         "name": "Dalgona Whip",
@@ -390,6 +408,8 @@
     "id": "10",
     "name": "Iced Dalgona Seasonal Latte",
     "category": "beverage",
+    "description": "A chilled seasonal latte with dalgona ice cream.",
+    "preparation": "A scoop of frozen dalgona ice cream is placed in the cup over ice, then 50ml of drip coffee is poured over, followed by 70ml of milk. Sauce is sprayed in the cup first, and syrup is mixed with the milk.",
     "ingredients": [
       {
         "name": "Dalgona Ice Cream",
@@ -433,6 +453,7 @@
     "id": "11",
     "name": "Waffle Ham n Egger",
     "category": "food",
+    "description": "A savory waffle topped with ham and eggs.",
     "ingredients": [
       {
         "name": "Waffle mix",
@@ -471,6 +492,7 @@
     "id": "12",
     "name": "Dalgona Waffle",
     "category": "food",
+    "description": "A classic waffle drizzled with dalgona syrup.",
     "ingredients": [
       {
         "name": "Waffle mix",
@@ -524,6 +546,7 @@
     "id": "13",
     "name": "Dalgona Hot Fudge Waffle",
     "category": "food",
+    "description": "A waffle topped with hot fudge and dalgona syrup.",
     "ingredients": [
       {
         "name": "Waffle mix",
@@ -577,6 +600,7 @@
     "id": "14",
     "name": "Dalgona Caramel Waffle",
     "category": "food",
+    "description": "A caramel-drizzled waffle with dalgona syrup.",
     "ingredients": [
       {
         "name": "Waffle mix",
@@ -630,6 +654,7 @@
     "id": "15",
     "name": "Dalgona Matcha Waffle",
     "category": "food",
+    "description": "A waffle infused with matcha and dalgona syrup.",
     "ingredients": [
       {
         "name": "Waffle mix",
@@ -683,6 +708,7 @@
     "id": "16",
     "name": "Dalgona Seasonal Waffle",
     "category": "food",
+    "description": "A seasonal waffle with dalgona syrup.",
     "ingredients": [
       {
         "name": "Waffle mix",
