@@ -5,7 +5,7 @@ import Paragraph from '../components/Paragraph';
 
 export default function About() {
     return (
-        <div className="flex flex-col items-start justify-start w-full h-full text-gray-800 px-8 pt-20 pb-8">
+        <div className="flex flex-col items-start justify-start w-auto h-auto text-gray-800 px-8 pt-2 pb-8 bg-black bg-opacity-80 rounded-md mt-20 mx-2">
             <Title text="About Us" />
             <Subtitles text="Our Story" />
             <Paragraph text="Welcome to ScafesCafe! We take pride in crafting the perfect blend of coffee and ice cream, featuring our signature dalgona-infused creations." />

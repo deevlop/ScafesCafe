@@ -9,9 +9,10 @@ export default {
       colors: {
         coffee: {
           light: '#D2B48C', // Tan
-          medium: '#A0522D', // Sienna
-          dark: '#6F4E37', // Coffee
+          medium: '#b26846ff', // Sienna
+          dark: '#98592cff', // Coffee
         },
+        light: '#f7f5f3'
       },
     },
   },

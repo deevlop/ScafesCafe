@@ -30,7 +30,7 @@ export default function Navbar({ setPage, isNavOpen, setIsNavOpen }) {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-8 h-8 text-white"
+                    className="w-8 h-8 text-coffee-light"
                 >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -45,19 +45,19 @@ export default function Navbar({ setPage, isNavOpen, setIsNavOpen }) {
                         initial={{ x: "-100%" }}
                         animate={{ x: isNavOpen ? 0 : "-100%" }}
                         transition={{ duration: 0.4, ease: "easeInOut" }}
-                        className="bg-black bg-opacity-100 text-white w-64 h-full shadow-lg flex flex-col"
+                        className="bg-black bg-opacity-100 text-coffee-light w-64 h-full shadow-lg flex flex-col"
                     >
                         {/* Close button */}
                         <button
                         onClick={() => setIsNavOpen(false)}
-                        className="py-2 px-4 mr-4 mt-2 text-white self-end bg-black"
+                        className="py-2 px-4 mr-4 mt-2 text-coffee-light self-end bg-black"
                         >
                         ✕
                         </button>
 
                         {/* Nav items */}
                         <nav className="flex flex-col space-y-4 p-4">
-                        <button className="hover:underline text-left bg-black" onClick={() => {
+                        <button className="hover:underline text-left bg-black " onClick={() => {
                             setPage("landing")
                             setIsNavOpen(false)
                         }}>

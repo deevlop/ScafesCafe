@@ -163,10 +163,9 @@ export default function Landing({ setPage }) {
                       }}
 
               >
-                <div className="bg-black flex flex-col items-center justify-center m-2 w-full h-full rounded-md">
-                  <h2 className="text-2xl font-bold mb-2 text-coffee-dark">See Our Menu</h2>
+                <div className="bg-black bg-opacity-20 hover:bg-opacity-70 flex flex-col items-center justify-center m-2 w-full h-full rounded-md">
+                  <h2 className="text-2xl font-bold mb-2 text-coffee-light ">See Our Menu</h2>
                   <div className="h-1 bg-coffee-light w-[12px] mb-2" />
-                  {/* <insert video of item being made, rounded corners, loops through continiously */}
                   <p className="text-sm text-gray-400">Click to explore our delicious offerings</p>
                 </div>
 

@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-    <>
+    <div className='flex flex-col items-center justify-start w-screen h-screen'>
       <Navbar setPage={setPage} isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} />
       {
         page === 'landing' && (
@@ -37,7 +37,7 @@ function App() {
           <Contact />
         )
       }
-    </>
+    </div>
 
   )
 }
